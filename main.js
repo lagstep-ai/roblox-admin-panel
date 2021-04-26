@@ -1,6 +1,6 @@
 /**/var id = 11152;
 let apiKey = '1be9a6884abd4c3ea143b59ca317c6b2';
-var ip = 1.1.1.1
+var ip = 1.1.1.1;
 $.getJSON('https://ipgeolocation.abstractapi.com/v1/?api_key=' + apiKey, function(data) {
   ip = JSON.stringify(data, null, 2);
 });
